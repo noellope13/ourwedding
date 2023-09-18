@@ -190,11 +190,28 @@
                 <div class="col-md-6 p-0 text-center text-md-right">
                     <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
                         <h3 class="mb-3">The Groom</h3>
-                        <p> Hi, is me, Noel. As the groom, I am excited to start this new chapter in my life with Rachel.
-                             I am looking forward to building a future filled with love, laughter, and adventure,
-                             and can't wait to share this journey with my soulmate.
-                             I am honored and grateful to be marrying the love of my life in front of our family and friends, 
-                             and I looking forward to celebrating this special day with everyone who has touched my life.</p>
+                        <p>Hi, it's me, Noel. As the groom, I am excited to start this new chapter in my life with Rachel.
+                                I am looking forward to building a future filled with love, laughter, and adventure,
+                                and can't wait to share this journey with<span id="dots">...</span><span id="more"> my soulmate. I am honored and grateful to be marrying the love of my life in front of our family and friends,
+                                    and I looking forward to celebrating this special day with everyone who has touched my life.</span><button2 onclick="myFunction()" id="myBtn2">Read more</button2></p>
+
+                        <script>
+                            function myFunction() {
+                              var dots = document.getElementById("dots");
+                              var moreText = document.getElementById("more");
+                              var btnText = document.getElementById("myBtn2");
+                            
+                              if (dots.style.display === "none") {
+                                dots.style.display = "inline";
+                                btnText.innerHTML = "Read more"; 
+                                moreText.style.display = "none";
+                              } else {
+                                dots.style.display = "none";
+                                btnText.innerHTML = "Read less"; 
+                                moreText.style.display = "inline";
+                              }
+                            }
+                            </script>
                         <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Noel Lopez</h3>
                         <div class="position-relative">
                             <a class="btn btn-outline-primary btn-square mr-1" href="https://twitter.com/noel_lopez3"><i class="fab fa-twitter"></i></a>
