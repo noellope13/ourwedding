@@ -36,6 +36,17 @@
   box-sizing: border-box;
 }
 
+#more {display: none;}
+#myBtn2 {
+  border: 1px solid #27b6c3;
+  border-radius: 20px;
+  background-color: #9887ca;
+  color: #353030;
+  font-size: 16px;
+  padding: 3px 5px;
+  
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
