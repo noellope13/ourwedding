@@ -27,6 +27,42 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+<div id="passwordPrompt">
+    <input id='password' type='password' />
+    <button onclick="validatePass()">Submit</button>
+    <p>PS. Your password will be in your formal invitation</p>
+</div>
+<style>
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+  }
+
+  #passwordPrompt {
+      text-align: center;
+      background-color: #dac5ed;
+      padding: 20px;
+      border-radius: 5px;
+  }
+</style>
+
+<script>
+        function validatePass() {
+            if (document.getElementById('password').value == 'FutureLopez') {
+                document.getElementById('passwordPrompt').style.display = 'none';
+                document.getElementById('websiteContent').style.display = 'block';
+            } else {
+                alert('Wrong password!!');
+            }
+        }
+    </script>
+    
+<div id="websiteContent" style="display: none;">
+
+    
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
@@ -775,6 +811,7 @@
             </p>
         </div>
     </div>
+</div>
     <!-- Footer End -->
 
 
