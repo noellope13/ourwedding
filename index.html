@@ -27,22 +27,22 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<div id="passPreview>    
+<div id = "PassPreview">
 <div id="passwordPrompt">
     <input id='password' type='password' />
     <button onclick="validatePass()">Submit</button>
-    <p>Your unique password will be in your formal invitation</p>
+    <p>PS. Your password will be in your formal invitation</p>
 </div>
 </div>
 <style>
-  #passPreview {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-  }
+      #PassPreview {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
 
+        }
   #passwordPrompt {
       text-align: center;
       background-color: #dac5ed;
@@ -50,6 +50,8 @@
       border-radius: 5px;
   }
 </style>
+
+<div id="websiteContent" style="display: none;">
 
 <script>
         function validatePass() {
