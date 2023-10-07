@@ -27,7 +27,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-
+<div id="PassPreview">
 <div id="passwordPrompt">
     <input id='password' type='password' />
     <button onclick="validatePass()">Submit</button>
@@ -43,7 +43,14 @@
       padding: 20px;
       border-radius: 5px;
   }
-          
+   PassPreview {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+
+        }       
         
   
 </style>
