@@ -27,30 +27,26 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<div id="PassPreview">
+
 <div id="passwordPrompt">
     <input id='password' type='password' />
     <button onclick="validatePass()">Submit</button>
     <p>Your password will be in your formal invitation</p>
 </div>
-</div>
+
 
     
 <style>
  
-   PassPreview {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-
-        }       
+     
  #passwordPrompt {
-      text-align: center;
+     text-align: center;
       background-color: #dac5ed;
       padding: 20px;
       border-radius: 5px;
+      position:absolute;
+       top:20%; 
+       left: 10%; right: 10%;
   }  
   
 </style>
