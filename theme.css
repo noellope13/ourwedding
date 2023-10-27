@@ -48,7 +48,7 @@ body{
     font-family: 'Caveat', cursive;
     font-size: 6em;
     font-weight: normal;
-    text-shadow: 0 0 15px #000;
+    text-shadow: 0 0 10px #000;
 
     
 
@@ -58,7 +58,7 @@ body{
     display: block;
     font-family: 'Caveat', cursive;
     font-size: .6em;
-
+    text-shadow: 0 0 10px #000000;
     
 }
 
@@ -67,7 +67,7 @@ body{
     display: block;
     font-family: 'Caveat', cursive;
     font-size: .6em;
-    
+    text-shadow: 0 0 10px #000000;
 }
 
 .fixed-button{
@@ -104,7 +104,7 @@ body{
     font-family: 'Caveat', cursive;
     font-size: 3em;
     margin-top: 2em;
-    text-shadow: 0 0 10px #000000;
+    text-shadow: 0 0 15px #000000;
     color: #fff;
 }
 .details{
