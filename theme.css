@@ -63,7 +63,7 @@ body{
 }
 
 .heading-subtext2{
-    color: #ffffff;
+    color: #000000;
     display: block;
     font-family: 'Caveat', cursive;
     font-size: .6em;
@@ -105,7 +105,7 @@ body{
     font-size: 3em;
     margin-top: 2em;
     
-    color: #fff;
+    color: #000000;
 }
 .details{
     margin: 0 auto 8em;
