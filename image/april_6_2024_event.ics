@@ -7,8 +7,8 @@ UID:1234567890
 DTSTAMP:20230831T120000Z
 DTSTART:20240406T160000
 DTEND:20240406T220000
-SUMMARY: Rachel and Noel's Wedding
-LOCATION: 3706 Avenue E 1/2, Santa Fe, TX 77510
-DESCRIPTION: Ceremony starts at 4:00PM. Reception will be from 4:30PM -  9:30PM.
+SUMMARY:Rachel and Noel's Wedding
+LOCATION:3706 Avenue E 1/2 Santa Fe TX 77510
+DESCRIPTION:Ceremony starts at 4:00PM. Reception will be from 4:30PM -  9:30PM.
 END:VEVENT
 END:VCALENDAR
